@@ -63,7 +63,7 @@ p {
 
 .button__wrapper {
   display: flex;
-  width: 30vw;
+  /* width: 30vw; */
   padding: 1em;
   justify-content: space-evenly;
   align-items: center;
@@ -91,6 +91,20 @@ p {
   border: 1px solid var(--text-main-color);
   background-color: var(--text-main-color);
 } */
+.split-time__wrapper {
+  color: white;
+  background-color: var(--text-shadow-color);
+  font-size: 1.5em;
+  /* border-radius: 10vh; */
+  /* border: 1px solid white; */
+  padding: 1em;
+}
+.split-time {
+  text-align: center;
+  font-size: 25px;
+  color: #c25a57;
+  padding: 8px;
+}
 @media only screen and (max-device-width: 1280px) {
   * {
     font-size: 0.9em;
@@ -99,7 +113,8 @@ p {
     font-size: 60px;
     line-height: 0px;
   }
-  .button__wrapper {
+  .button__wrapper,
+  .split-time__wrapper {
     margin: auto;
     width: 100%;
   }
