@@ -95,8 +95,8 @@ p {
   color: white;
   background-color: var(--text-shadow-color);
   font-size: 1.5em;
-  /* border-radius: 10vh; */
-  /* border: 1px solid white; */
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
   padding: 1em;
 }
 .split-time {
